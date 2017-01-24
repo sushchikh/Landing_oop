@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#00C9DC;stroke-width:150}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_131245560">
+   <path class="fil0 str0" d="M9080 13205l520 0 0 106c0,78 64,141 141,141l1579 0c78,0 141,-63 141,-141l0 -106 459 0c92,0 168,76 168,168l0 3404c0,92 -76,168 -168,168l-2840 0c-92,0 -167,-76 -167,-168l0 -3404c0,-92 75,-168 167,-168z"/>
+   <path class="fil0 str0" d="M9741 12941l397 0 0 -97c0,-49 40,-89 89,-89l608 0c49,0 88,40 88,89l0 97 397 0c78,0 141,63 141,141l0 229c0,78 -63,141 -141,141l-1579 0c-77,0 -141,-63 -141,-141l0 -229c0,-78 64,-141 141,-141z"/>
+   <line class="fil0 str0" x1="10191" y1="14030" x2="11655" y2= "14030" />
+   <line class="fil0 str0" x1="10191" y1="14524" x2="11205" y2= "14524" />
+   <line class="fil0 str0" x1="10191" y1="14973" x2="11646" y2= "14973" />
+   <line class="fil0 str0" x1="10191" y1="15503" x2="11223" y2= "15503" />
+   <line class="fil0 str0" x1="10191" y1="15944" x2="11708" y2= "15944" />
+   <line class="fil0 str0" x1="10191" y1="16464" x2="11223" y2= "16464" />
+   <polyline class="fil0 str0" points="9292,14065 9618,14453 10050,13942 "/>
+   <polyline class="fil0 str0" points="9292,15062 9618,15450 10050,14938 "/>
+   <polyline class="fil0 str0" points="9292,15944 9618,16332 10050,15820 "/>
+  </g>
+ </g>
+</svg>
