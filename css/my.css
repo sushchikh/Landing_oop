@@ -133,10 +133,11 @@ body, html{
  	background-position: center center;
  	background-repeat: no-repeat;
 	color: #fff;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+	text-shadow: 1px 1px 8px rgba(0, 0, 0, .7);
  }
 
  .top_screen_wrapper{
+ 	width: 50%;
  	padding-top: 20vh;
  	margin: 0 auto;
  	height: 100%;
