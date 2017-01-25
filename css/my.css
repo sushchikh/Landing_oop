@@ -151,3 +151,39 @@ body, html{
  ######  ##     ## ##     ##  #######   #######   ######  ######## ########
  */
  
+ .carousel_container{
+  width: 100%;
+  height: 600px;
+  border: 1px solid gray;
+ }
+
+ /* 
+ ######## ########    ###    ######## ##     ## ########  ########  ######
+ ##       ##         ## ##      ##    ##     ## ##     ## ##       ##    ##
+ ##       ##        ##   ##     ##    ##     ## ##     ## ##       ##
+ ######   ######   ##     ##    ##    ##     ## ########  ######    ######
+ ##       ##       #########    ##    ##     ## ##   ##   ##             ##
+ ##       ##       ##     ##    ##    ##     ## ##    ##  ##       ##    ##
+ ##       ######## ##     ##    ##     #######  ##     ## ########  ######
+  */
+
+.features_container {
+  width: 100%;
+  background-color: #fff;
+}
+  .features_wrapper{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+    .features_container_title{
+      width: 100%;
+    }
+    .features_item{
+      text-align: center;
+      max-width: 200px;
+
+    }
