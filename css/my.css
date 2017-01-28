@@ -68,7 +68,7 @@ html{
 	padding-bottom: 50px;
 }
 
-.width_container{width: 50%;}
+.width_container{width: 70%;}
 
 .title_font_size{
 	font-size: 3.5rem;
@@ -76,12 +76,16 @@ html{
 	letter-spacing: .3rem;
 	text-transform: uppercase;
 }
+
+.titlte_padding{
+  padding-top: 50px;
+}
  .bold{
  	font-weight: 700;
  }
 
 body, html{
-	font-family: open-sans, sans-serif, tahoma, arial;
+	font-family: tahoma, open-sans, sans-serif, tahoma, arial;
 }
 
 /* 
@@ -95,7 +99,7 @@ body, html{
  */
 
  .header_container{
- 	height: 20vh;
+ 	height: auto;
  	display: flex;
  	justify-content: space-between;
  	align-items: center;
@@ -104,8 +108,9 @@ body, html{
 
  }
 	.header_logo{
-		min-width: 304px;
+		width: 304px;
 		min-height: 80px;
+    margin-top: 10px;
 	}
 
 	.header_title{
@@ -133,17 +138,17 @@ body, html{
  	background-position: center center;
  	background-repeat: no-repeat;
 	color: #fff;
-	text-shadow: 1px 1px 8px rgba(0, 0, 0, .7);
+	text-shadow: 1px 1px 20px rgba(0, 0, 0, .9);
  }
 
  .top_screen_wrapper{
- 	width: 50%;
  	padding-top: 20vh;
  	margin: 0 auto;
  	height: 100%;
  }
  .top_screen_text{
  	padding-top: 7vh;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 1), -1px -1px 10px rgba(0, 0, 0, 1);
  }
 
 /* 
@@ -158,12 +163,22 @@ body, html{
  
  .carousel_container{
   width: 100%;
+
  }
   .carousel{
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+    left: calc(50% - 220px);
   }
+
+  .carousel img{
+    height: 70vh;
+    width: auto;
+  }
+
+
+
+
+
+
 
  /* 
  ######## ########    ###    ######## ##     ## ########  ########  ######
@@ -181,7 +196,6 @@ body, html{
   color: #00C8DC;
 }
   .features_wrapper{
-    width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -195,7 +209,7 @@ body, html{
       text-align: center;
       max-width: 250px;
       margin-top: 30px;
-      height: 250px;
+      height: auto;
       display: flex;
       align-items: flex-end;
       justify-content: center;
@@ -217,14 +231,17 @@ body, html{
 
 .brands_container{
 	width: 100%;
+  height: auto;
 	background-color: #5E91E4; 
 	color: #fff;
 }
 	.brand_title{
-		width: 50%;
-		padding-top: 50px;
 		margin: 0px auto;
 	}
+
+  .brands_wrapper{
+    margin: 0 auto;
+  }
 
 /* 
 ########     ###    ########  ######## ##    ## ######## ########   ######
@@ -239,8 +256,6 @@ body, html{
 
  .partner_title{
  	color: #40517F;
- 	width: 50%;
-	padding-top: 50px;
 	margin: 0px auto;
  }
 
@@ -263,13 +278,10 @@ body, html{
 
   	.contact_title{
   		color: #fff;
-		 	width: 50%;
-			padding-top: 50px;
 			margin: 0px auto;  		
   	}
   	.contact_wrapper{
 
-  		width: 50%;
   		margin: 0 auto;
   		display: flex;
   		justify-content: flex-start;
@@ -279,7 +291,7 @@ body, html{
   	}
   	.div_oop, .service{
   		width: 50%;
-  		min-width: 300px;
+  		width: 300px;
   		margin-top: 50px;
   	}
   	.contact_wrapper span {
@@ -289,3 +301,50 @@ body, html{
   	.contact_wrapper p {
   		margin-top: 15px;
   	}
+
+
+/* 
+##     ## ######## #### ########     ###
+###   ### ##        ##  ##     ##   ## ##
+#### #### ##        ##  ##     ##  ##   ##
+## ### ## ######    ##  ##     ## ##     ##
+##     ## ##        ##  ##     ## #########
+##     ## ##        ##  ##     ## ##     ##
+##     ## ######## #### ########  ##     ## */
+
+@media screen and (max-width: 800px){
+  .features_wrapper{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .width_container{width: 90%;}
+  .titlte_padding{
+    padding-top: 20px;
+  }
+  .container_padding{
+      padding-bottom: 10px;
+  }
+   .top_screen_container{
+      height: 400px;
+  }
+    .contact_wrapper p {
+      margin-top: 5px;
+  }
+    .div_oop, .service{
+      margin-top: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+  .title_font_size{
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+  }
+   .top_screen_container{
+      height: 300px;
+  }
+}
+
+
